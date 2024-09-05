@@ -5,8 +5,8 @@ import numpy as np
 training_path = 'set2_500_patients.xlsx'
 test_path = 'set3_500_patients.xlsx'
 
-training_df = pd.read_excel(training_path, nrows=5000)
-test_df = pd.read_excel(test_path, nrows=5000)
+training_df = pd.read_excel(training_path)
+test_df = pd.read_excel(test_path)
 
 # Exclude the first column from the DataFrame
 training_df = training_df.iloc[:, 1:]
