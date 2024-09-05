@@ -1,0 +1,4 @@
+- współczynniki nie powinny byc inne dla różnych osób
+- hearth attack to po prostu atak serca w danej godzinie danego dnia
+- accident to po prostu wypadek w danej godzinie danego dnia
+na podstawie danych mamy wyznaczyć pewnie współczynniki (zależności między wartościami, dzięki którym w przyszłości na kolejnym zestawie danych będziemy sprawdzać nasz model)

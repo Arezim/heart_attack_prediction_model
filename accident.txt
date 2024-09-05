@@ -1,0 +1,13 @@
+Correlation with accident:
+intoxication      0.286865
+hypertension      0.190163
+heart_attack      0.099548
+hour              0.074282
+goof_ball         0.014000
+overweight        0.013491
+subject           0.007201
+Unnamed: 0        0.007154
+smoker            0.006646
+day               0.000955
+family_history   -0.006692
+alertness        -0.301701
