@@ -9,8 +9,8 @@ training_df = pd.read_excel(training_path)
 test_df = pd.read_excel(test_path)
 
 # Exclude the first column from the DataFrame
-training_df = training_df.iloc[:, 1:]
-test_df = test_df.iloc[:, 1:]
+training_df = training_df.iloc[:, 1:-1]
+test_df = test_df.iloc[:, 1:-1]
 
 # Handle NaN values
 training_df = training_df.dropna()
